@@ -1,5 +1,5 @@
 """
-Lumache - Python library for cooks and food lovers.
+OGRaySpY - Python app for gamma-ray spectra analysis.
 """
 
 __version__ = "0.1.0"
