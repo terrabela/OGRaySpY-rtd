@@ -1,9 +1,9 @@
-Template for the Read the Docs tutorial
-=======================================
+OGRaySpY documentation
+======================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+OGRaySpY stands for:
+Open app for Gamma-RAY SPectra in Python with analysis and visualization.
 
 Read the tutorial here:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://ograyspy-docs.readthedocs.io/en/latest/
