@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'OGRaySpy'
-copyright = '2023, M.F. Máduar'
-author = 'M.F. Máduar'
+project = 'OGRaySpY'
+copyright = '2023, M. F. Máduar'
+author = 'M. F. Máduar'
 
 release = '0.1'
 version = '0.1.0'
