@@ -3,32 +3,22 @@ Usage
 
 .. _installation:
 
-Installation
-------------
+Requisites
+----------
 
-To use Lumache, first install it using pip:
+OGRaySpY, the Open app for Gamma-RAY SPectra Analysis and visualization, requires:
 
-.. code-block:: console
+- [Pandas](http://pandas.pydata.org/) for results reporting.
+- [Plotly](https://plotly.com/python/) for spectra interactive graphing
+- PyQt5 for UI
+- numpy / scipy / lmfit to perform all the Math...
 
-   (.venv) $ pip install lumache
+Basic usage
+-----------
 
-Creating recipes
-----------------
+- Run ograyspy_main_ui.py in a Python console to start main program's interface
+- Invoke menu File --> Open spectrum and generate report.
+  Some - real - example spectra as .chn files are in folder data/some_spectra.
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+- Choose a .chn or .iec spectrum
+- Peak report will be shown and saved as an_html_file.html.
